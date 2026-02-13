@@ -10,6 +10,34 @@ python3 ai_history_timeline.py
 
 실행 후 시작/종료 연도를 입력하면 해당 범위의 타임라인과 핵심 키워드가 출력됩니다.
 
+## 완전 초보용: 파일 열어보기
+
+터미널에서 아래처럼 입력하면 파일 내용을 볼 수 있습니다.
+
+```bash
+cat README.md
+cat ai_history_timeline.py
+```
+
+스크롤해서 읽고 싶으면 `less`를 쓰면 편합니다.
+
+```bash
+less ai_history_timeline.py
+```
+
+- `q`: 종료
+- `/단어`: 검색
+- `n`: 다음 검색 결과로 이동
+
+파일을 직접 수정하고 싶다면 간단한 편집기 `nano`를 사용할 수 있습니다.
+
+```bash
+nano ai_history_timeline.py
+```
+
+- 수정 후 `Ctrl + O` (저장), Enter
+- `Ctrl + X` (종료)
+
 ## 포함된 주요 흐름
 
 - 튜링 테스트, 다트머스 회의
